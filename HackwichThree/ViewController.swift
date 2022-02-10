@@ -27,5 +27,34 @@ class ViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.blue
         
+//Part 5
+        
+        
+        @IBOutlet weak var changeColorLabelPressed: UILabel!
+        
+        if firstString == "The background color will turn red"
+            
+    {
+        self.view.backgroundColor = UIColor.red
+    }else{
+        
+        @IBOutlet weak var changeColorLahelPressedTwo: UILabel!
+        if firstString == "The background color woll turn blue"
+            
+            self.view.backgroundColor = UIColor.blue
+    }else{
+        
+        @IBAction func magicButton(_ sender: Any) {
+        }
+    }
+    @IBOutlet weak var changeColorLabelThree: UILabel!
 
+if firstString == "The background color will turn green"
+    
+    self.view.backgroundColor = UIColor.green
+    }
+    
+let green = true
+
+print("I completed both problem sets")
 
